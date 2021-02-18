@@ -22,7 +22,7 @@ public class Impresiones {
     {
         Scanner sc = new Scanner(System.in);
         sc.nextLine();
-        for(int i = 0; i < 15; i++)
+        for(int i = 0; i < 30; i++)
         {
             System.out.println("");
         }

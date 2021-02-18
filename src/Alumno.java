@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 class Alumno {
- String nombre, telefono, direccion, genero;
+ String nombre, telefono, correo, genero;
  Calificaciones califs[];
  int promedio;
 
@@ -13,8 +13,8 @@ class Alumno {
 	  telefono = tel;
 	}
 
-	public void setDireccion(String dir){
-	  direccion = dir;
+	public void setDireccion(String corr){
+	  correo = corr;
 	}
 
 	public void setGenero(String gen){
@@ -50,8 +50,8 @@ class Alumno {
 	  return telefono;
 	} 
 
-	public String getDireccion(){
-	  return direccion;
+	public String getCorreo(){
+	  return correo;
 	} 
 
 	public String getGenero(){

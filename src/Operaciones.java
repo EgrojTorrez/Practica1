@@ -1,8 +1,8 @@
 public class Operaciones {
 
-    public static int promedio(Calificaciones list[])
+    public static float promedio(Calificaciones list[])
     {
-        int pro = 0;
+        float pro = 0;
         for(int i = 0; i < list.length;i++)
         {
             pro += list[i].calificacion;

@@ -12,7 +12,7 @@ public class Practica1
                 case 1:
                     alumno1.setNombre(CapturaEntrada.capturarString("Nombre"));
                     alumno1.setGenero(CapturaEntrada.capturarString("Genero"));
-                    alumno1.setDireccion(CapturaEntrada.capturarString("Direccion"));
+                    alumno1.setDireccion(CapturaEntrada.capturarString("Correo"));
                     alumno1.setTelefono(CapturaEntrada.capturarString("Telefono"));
                     alumno1.setCalificaciones(CapturaEntrada.capturarEntero("Numero de calificaciones a ingresar"));
                     break;
